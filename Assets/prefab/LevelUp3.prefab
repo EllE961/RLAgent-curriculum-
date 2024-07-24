@@ -29341,6 +29341,7 @@ GameObject:
   - component: {fileID: 5086594504661128758}
   - component: {fileID: 3089119771616874839}
   - component: {fileID: 4648296845662755098}
+  - component: {fileID: -5062677446562392553}
   m_Layer: 0
   m_Name: LevelUp3
   m_TagString: Untagged
@@ -34224,3 +34225,15 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-5062677446562392553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8537498675656112589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed644ab574fb0742a959c7b5e4fd55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

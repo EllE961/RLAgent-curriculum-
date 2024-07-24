@@ -1,0 +1,10 @@
+{
+  "measure": "reward",
+  "thresholds": [ 100, 200, 300 ],
+  "min_lesson_length": 100,
+  "signal_smoothing": true,
+  "parameters": {
+    "reward_density": [ 0.1, 0.2, 0.3 ],
+    "obstacle_density": [ 0.05, 0.1, 0.15 ]
+  }
+}

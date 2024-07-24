@@ -2,6 +2,7 @@
   "dependencies": {
     "com.unity.collab-proxy": "2.4.4",
     "com.unity.feature.development": "1.0.1",
+    "com.unity.ml-agents": "https://github.com/Unity-Technologies/ml-agents.git?path=com.unity.ml-agents",
     "com.unity.render-pipelines.universal": "14.0.9",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.6",

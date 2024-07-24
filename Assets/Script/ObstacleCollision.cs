@@ -10,8 +10,9 @@ public class ObstacleCollision : MonoBehaviour
         {
             Instantiate(collisionParticlePrefab, transform.position, Quaternion.identity);
             Debug.Log("Hit an obstacle!");
-            Destroy(gameObject);
             GameManager.instance.RestartGame();
+            Destroy(gameObject);
+
         }
     }
 }

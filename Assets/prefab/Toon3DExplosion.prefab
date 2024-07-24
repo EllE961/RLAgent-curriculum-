@@ -4935,6 +4935,7 @@ GameObject:
   - component: {fileID: 1510542076297736576}
   - component: {fileID: 2555728658033373695}
   - component: {fileID: 6069488805555814687}
+  - component: {fileID: -5076376689048577666}
   m_Layer: 0
   m_Name: Toon3DExplosion
   m_TagString: Untagged
@@ -9823,6 +9824,18 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &-5076376689048577666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448162269932703216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed644ab574fb0742a959c7b5e4fd55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &950589129091346342
 GameObject:
   m_ObjectHideFlags: 0

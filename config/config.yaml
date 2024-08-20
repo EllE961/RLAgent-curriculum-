@@ -1,0 +1,25 @@
+behaviors:
+  Collecter:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 512  # Decreasing batch size can provide more updates per epoch
+      buffer_size: 5120  # Adjust buffer size accordingly, 5 times the batch size
+      learning_rate: 0.0001  # Lowering learning rate to allow for more fine-grained updates
+      beta: 0.01  # Increase beta slightly for more regularization
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 5  # Increase the number of epochs for more thorough training per batch
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: true  # Enable normalization to help stabilize training
+      hidden_units: 256
+      num_layers: 3  # Increase the number of layers to allow the network to capture more complex patterns
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.99
+        strength: 1.0
+    keep_checkpoints: 5
+    max_steps: 2000000
+    time_horizon: 64
+    summary_freq: 10000

@@ -4916,9 +4916,10 @@ GameObject:
   - component: {fileID: 6322912467458032419}
   - component: {fileID: 846369887033625360}
   - component: {fileID: 8097934903907883430}
+  - component: {fileID: -3395017835694588691}
   m_Layer: 0
   m_Name: Coin
-  m_TagString: Reward
+  m_TagString: coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5004,7 +5005,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5025,6 +5026,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spinSpeed: 100
+--- !u!114 &-3395017835694588691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388187174691613316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8164e39105c7d4f8311684c01b0207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawn: 0
+  myArea: {fileID: 0}
 --- !u!1 &1496667788632049215
 GameObject:
   m_ObjectHideFlags: 0

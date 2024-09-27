@@ -18,7 +18,7 @@ In this project, the environment consists of randomly placed coins and obstacles
 - **Reset Mechanism**: At the start of each episode, the environment is reset, and the agent is placed at a new random starting position, promoting generalization in learning.
 - **Particle Effects**: Visual feedback in the form of particle effects is triggered when the agent collects coins or hits obstacles.
 
-[![Watch the video]]([https://www.youtube.com/watch?v=your-video-id-here](https://www.youtube.com/watch?v=vgD67wPSw2s))
+[![Watch the video]([https://www.youtube.com/watch?v=vgD67wPSw2s])
 
 ### Agent Training
 

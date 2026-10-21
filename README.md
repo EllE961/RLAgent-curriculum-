@@ -8,11 +8,13 @@
 ![ml-agents](https://img.shields.io/badge/ml--agents-PPO-d95926?style=flat-square&labelColor=0d0c0b)
 ![reward](https://img.shields.io/badge/episode%20reward-2.97%20of%20~5-3987e5?style=flat-square&labelColor=0d0c0b)
 ![license](https://img.shields.io/badge/license-MIT-1f1d1b?style=flat-square&labelColor=0d0c0b)
+![status](https://img.shields.io/badge/status-experimental-9085e9?style=flat-square&labelColor=0d0c0b)
 
 <a href="https://www.youtube.com/watch?v=vgD67wPSw2s"><img src="docs/assets/hero.jpg" alt="frame from the training video: twelve arenas in the scene view, one agent and its coins close up in the game view" width="100%"></a>
 
 </div>
 
+This is an experiment and isn't finished: PPO training works and reaches a mean episode reward of 2.97 out of about 5, but the curriculum isn't part of training yet (see Limitations).
 I built this in July 2024 as a course project with Unity's ML-Agents toolkit. Each of the twelve arenas holds one agent, six coins and
 six obstacles at random positions. The agent earns +1 for a coin and loses 1 for hitting an obstacle or a wall, and a
 small per-step penalty pushes it to be quick. The image links to a video of training in the editor. The repo name

@@ -107,7 +107,7 @@ about +5, so the agents still miss coins or hit things. The summaries are in `do
 
 ```bash
 python -m venv venv
-venv\Scriptsctivate
+venv\Scripts\activate
 pip install mlagents==1.1.0 "setuptools<70"    # Python 3.10; mlagents 1.1.0 still imports pkg_resources
 
 # build Assets/Scenes/SampleScene.unity as a Windows player to Build/RLAgent.exe, then:
